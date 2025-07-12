@@ -1,4 +1,4 @@
-🛡️ CaesarCipher
+**🛡️ CaesarCipher**
 
 A simple Python implementation of the classic Caesar Cipher encryption technique. This project includes a script to encrypt and decrypt text files using a user-defined shift value.
 
