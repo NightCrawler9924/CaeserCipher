@@ -18,14 +18,14 @@ class CaesarCipher:
                 is_upper = a.isupper()
                 a = a.lower()  # Converted to lowercase
                 new = (self.alphabet.index(a) + shift) % 26  # Shift will always be 3 as defined above
-                new_a = self.alphabet[new]  # Get the shifted character
+                new_a = self.alphabet[new]  # get the shifted character
                 
                 if is_upper:
-                    encrypted_text +=  new_a.upper()  # Convert back to uppercase if needed
+                    encrypted_text +=  new_a.upper() 
                 else:
-                    encrypted_text += new_a  # Keep it lowercase
+                    encrypted_text += new_a 
             else:
-                encrypted_text += a  # Keep spaces, punctuation, etc.
+                encrypted_text += a  
 
         return encrypted_text  # Return the final encrypted text
 
